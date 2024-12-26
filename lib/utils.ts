@@ -166,6 +166,7 @@ export const constructDownloadUrl = (bucketFileId: string) => {
 
 // DASHBOARD UTILS
 export const getUsageSummary = (totalSpace: any) => {
+  console.log('TOTAL SPACE: ', totalSpace);
   return [
     {
       title: 'Documents',
